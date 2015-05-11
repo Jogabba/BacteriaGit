@@ -1,0 +1,6 @@
+/Users/swiese/fbandroid-sdk/samples/PlacePickerSample/build/intermediates/classes/release
+/Users/swiese/fbandroid-sdk/samples/PlacePickerSample/build/intermediates/pre-dexed/release/support-annotations-21.0.3-39dc7a129e2755934cee0c0a8457ea991dffb4ba.jar
+/Users/swiese/fbandroid-sdk/samples/PlacePickerSample/build/intermediates/pre-dexed/release/bolts-android-1.1.4-84951563b646a3cf6dd069bc4e6a08c174a569be.jar
+/Users/swiese/fbandroid-sdk/samples/PlacePickerSample/build/intermediates/pre-dexed/release/internal_impl-21.0.3-8e1d049083df378b2ea1b7e46db948036b1773be.jar
+/Users/swiese/fbandroid-sdk/samples/PlacePickerSample/build/intermediates/pre-dexed/release/classes-bbca466090b6815963dba852e75d7bf283d16969.jar
+/Users/swiese/fbandroid-sdk/samples/PlacePickerSample/build/intermediates/pre-dexed/release/classes-32b6e8d19d62a3efbed737ba5d32eec399e984e3.jar

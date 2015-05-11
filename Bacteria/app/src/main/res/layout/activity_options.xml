@@ -1,0 +1,444 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aleixjose.bacteria.Options"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:animateLayoutChanges="true"
+>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/CounterText"
+        android:background="#ffffff"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Counter:"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:id="@+id/counter"
+            android:textStyle="bold"
+            android:background="@drawable/barranegra"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal"
+
+        ></LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:id="@+id/UpgradeContainer"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:id="@+id/Separar1"
+            android:orientation="vertical"
+            ></LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:id="@+id/Upgrade1"
+            android:orientation="vertical"
+            android:background="@drawable/cuadrat"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="Upgrade1 Title"
+                android:gravity="center"
+                android:id="@+id/TitleUpgrade1"
+                android:textStyle="bold"
+                android:textColor="#999999"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    > </ImageView>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="3"
+                    android:id="@+id/Upgrade1Image"
+                    > </ImageView>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    > </ImageView>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:text="Upgrade 1 Type"
+                android:gravity="center"
+                android:id="@+id/DescriptionUpgrade1"
+                android:textColor="#111111"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Buy"
+                android:id="@+id/send"
+                android:onClick="UpgradeBuy"
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+       <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:id="@+id/Separar2"
+            android:orientation="vertical"
+            ></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:id="@+id/Upgrade2"
+            android:orientation="vertical"
+            android:background="@drawable/cuadrat"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="Upgrade2 Title"
+                android:gravity="center"
+                android:id="@+id/TitleUpgrade2"
+                android:textStyle="bold"
+                android:textColor="#999999"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="horizontal"
+                >
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    > </ImageView>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="3"
+                    android:id="@+id/Upgrade2Image"
+                    > </ImageView>
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    > </ImageView>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:text="Upgrade 2 Type"
+                android:gravity="center"
+                android:id="@+id/DescriptionUpgrade2"
+                android:textColor="#111111"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="Buy"
+                    android:id="@+id/send2"
+                    android:onClick="UpgradeBuy"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:orientation="vertical"
+            ></LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        ></LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.4"
+        android:id="@+id/UpgradeCounter"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/Upgrades_separator1"
+            ></RelativeLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/Upgrades_counter"
+            android:background="#666666"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="@drawable/clickpower"
+                android:id="@+id/TouchPowerImage"/>
+            <TextView
+                android:id="@+id/TouchPowerLvlId"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.4"
+                android:gravity="center"
+                android:text="Touch"
+                android:textColor="#ffffff"
+                android:textSize="10dp"
+                android:background="#000000"
+                />
+            </LinearLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/Upgrades_separator2"
+            >
+
+
+            </RelativeLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/Upgrades_counter2"
+            android:background="#666666"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="@drawable/critchance"
+                android:id="@+id/CriticalChanceImage"/>
+            <TextView
+                android:id="@+id/CriticalChanceLvlId"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.4"
+                android:gravity="center"
+                android:text="Critical C"
+                android:textColor="#ffffff"
+                android:textSize="10dp"
+                android:background="#000000"
+
+                />
+            </LinearLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/Upgrades_separator3"
+            ></RelativeLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/Upgrades_counter3"
+            android:background="#666666"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="@drawable/critpower"
+                android:id="@+id/CriticalPowerImage"/>
+            <TextView
+                android:id="@+id/CriticalPowerLvlId"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.4"
+                android:gravity="center"
+                android:text="CriticalP"
+                android:textColor="#ffffff"
+                android:textSize="10dp"
+                android:background="#000000"
+
+                />
+            </LinearLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/Upgrades_separator4"
+            ></RelativeLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/Upgrades_counter4"
+            android:background="#666666"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="@drawable/autoclick"
+                android:id="@+id/AutoclickImage"/>
+            <TextView
+                android:id="@+id/AutoClickLvlId"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.4"
+                android:gravity="center"
+                android:text="Autoclick"
+                android:textColor="#ffffff"
+                android:textSize="10dp"
+                android:background="#000000"
+
+                />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:id="@+id/Upgrades_separator5"
+            ></RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        ></LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:id="@+id/BackMainButton"
+        android:background="@drawable/barranegra"
+        android:onClick="mainMenu"
+        >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/less"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="4"/>
+
+    </LinearLayout>
+</LinearLayout>

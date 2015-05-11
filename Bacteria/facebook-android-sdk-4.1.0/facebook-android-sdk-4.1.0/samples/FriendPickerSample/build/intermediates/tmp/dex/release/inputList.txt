@@ -1,0 +1,6 @@
+/Users/swiese/fbandroid-sdk/samples/FriendPickerSample/build/intermediates/classes/release
+/Users/swiese/fbandroid-sdk/samples/FriendPickerSample/build/intermediates/pre-dexed/release/support-annotations-21.0.3-39dc7a129e2755934cee0c0a8457ea991dffb4ba.jar
+/Users/swiese/fbandroid-sdk/samples/FriendPickerSample/build/intermediates/pre-dexed/release/bolts-android-1.1.4-84951563b646a3cf6dd069bc4e6a08c174a569be.jar
+/Users/swiese/fbandroid-sdk/samples/FriendPickerSample/build/intermediates/pre-dexed/release/internal_impl-21.0.3-d9f3605e1c087fe384814481aa570667bc0eb838.jar
+/Users/swiese/fbandroid-sdk/samples/FriendPickerSample/build/intermediates/pre-dexed/release/classes-a6bcfdbc7dc00780cc9fac73d539dd07370e04b4.jar
+/Users/swiese/fbandroid-sdk/samples/FriendPickerSample/build/intermediates/pre-dexed/release/classes-c781e80a4eee18e40f31faf3ae0e79290950e9d4.jar
